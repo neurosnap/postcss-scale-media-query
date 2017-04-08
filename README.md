@@ -1,7 +1,14 @@
-Postcss Scale Media Query
+Postcss Scale Media Query [![Build Status](https://travis-ci.org/neurosnap/postcss-scale-media-query.svg?branch=master)](https://travis-ci.org/neurosnap/postcss-scale-media-query)
 =========================
 
-The goal of this postcss plugin is to scale all media queries in CSS by some percentage.
+The goal of this postcss plugin is to scale all media query `-width` by some percentage.
+
+This will only alter the values of the following media query features:
+
+* min-width
+* max-width
+* min-device-width
+* max-device-width
 
 Install
 -------
