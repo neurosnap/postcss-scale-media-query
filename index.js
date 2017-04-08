@@ -8,7 +8,7 @@ module.exports = postcss.plugin('scale-media-query', function scopeify(opts) {
   var scale = opts.scale || 1;
 
   return function postcssPlugin(css) {
-    css.walkAtRules('media', function walkAt(rule) {
+    css.walkAtRules('media', function walkMedia(rule) {
       var params = rule.params;
       if (params.indexOf('width') === -1) return;
 
