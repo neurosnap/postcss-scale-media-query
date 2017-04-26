@@ -16,7 +16,7 @@ module.exports = postcss.plugin('scale-media-query', function scopeify(opts) {
       while ((reValue = paramValueRe.exec(params)) !== null) {
         if (!reValue || reValue.length === 1) continue;
 
-        const value = parseInt(reValue[1], 10);
+        var value = parseInt(reValue[1], 10);
         params = params.replace(value, value * scale);
       }
 

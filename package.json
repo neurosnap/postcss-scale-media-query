@@ -1,6 +1,6 @@
 {
   "name": "postcss-scale-media-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scale media queries by some percentage",
   "main": "index.js",
   "repository": "git@github.com:neurosnap/postcss-scale-media-query.git",
